@@ -28,7 +28,7 @@
         android:layout_marginTop="30dp"
         android:ems="10"
         android:inputType="text"
-        android:text="Valor 1"
+        android:hint="Valor 1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textTitulo" />
@@ -40,7 +40,7 @@
         android:layout_marginTop="30dp"
         android:ems="10"
         android:inputType="text"
-        android:text="Valor 2"
+        android:hint="Valor 2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textoValor1" />
@@ -85,7 +85,7 @@
             android:text="Multiplicação" />
 
         <RadioButton
-            android:id="@+id/radioDivisão"
+            android:id="@+id/radioDivisao"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Divisão" />

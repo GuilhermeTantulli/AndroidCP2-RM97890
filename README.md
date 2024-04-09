@@ -9,7 +9,7 @@ A primeira tela é a tela de home, que consiste em:
 
 A segunda tela é a 'Calculadora':
 - [x] Rota para a esta tela.
-- [ ] Back-end da tela.
+- [x] Back-end da tela.
 
 A terceira tela é a 'Conta Telefônica':
 - [x] Rota para a esta tela.
