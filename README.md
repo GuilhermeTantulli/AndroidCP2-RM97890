@@ -1,6 +1,6 @@
 # Kotlin Project
 
-Projeto na linguagem Kotlin criado no Android Studio, que exemplifica o comportamento de um App com 3 diferentes telas.
+Projeto na linguagem Kotlin criado no Android Studio, que exemplifica o comportamento de um App com 4 diferentes telas e uma sub-tela de resultado.
 
 A primeira tela é a tela de home, que consiste em:
 - [x] Botão 'Calculadora';

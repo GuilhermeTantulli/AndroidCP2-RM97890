@@ -26,17 +26,20 @@
         <!-- Calculator Activity -->
         <activity
             android:name=".CalculatorActivity"
-            android:exported="true" /> <!-- Garante que a activity pode ser iniciada -->
+            android:exported="true"
+            android:parentActivityName=".MainActivity"/> <!-- Garante que a activity pode ser iniciada -->
 
         <!-- Phone Activity -->
         <activity
             android:name=".PhoneActivity"
-            android:exported="true" /> <!-- Adicionado e exportado para compatibilidade -->
+            android:exported="true"
+            android:parentActivityName=".MainActivity"/> <!-- Adicionado e exportado para compatibilidade -->
 
         <!-- Resultado Activity -->
         <activity
             android:name=".ResultadoActivity"
-            android:exported="true" /> <!-- Adicionado e exportado para compatibilidade -->
+            android:exported="true"
+            android:parentActivityName=".PhoneActivity"/> <!-- Adicionado e exportado para compatibilidade -->
 
     </application>
 

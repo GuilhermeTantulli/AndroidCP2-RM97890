@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.AndroidCP2RM97890" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.AndroidCP2RM97890" parent="Theme.AppCompat.DayNight.DarkActionBar">
         <!-- Primary Brand Color. -->
         <item name="colorPrimary">@color/rosa_claro</item>
         <item name="colorPrimaryVariant">@color/rosa</item>
