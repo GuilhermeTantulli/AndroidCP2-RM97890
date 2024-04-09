@@ -3,6 +3,7 @@ package br.com.guilhermetantulli.androidcp2_rm97890
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 
 
@@ -25,7 +26,25 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, PhoneActivity::class.java)
             startActivity(intent)
         }
+
+        buttonStudent.setOnClickListener {
+            showSignature()
+        }
     }
 
+    private fun showSignature() {
+        val mySignature = """
+            Nome: Guilherme Tantulli
+            RM: 97890
+        """.trimIndent()
+
+        AlertDialog.Builder(this)
+            .setTitle("Desenvolvido Por")
+            .setMessage(mySignature)
+            .setPositiveButton("Ok") { dialog, which ->
+
+            }
+            .show()
+    }
 
 }
