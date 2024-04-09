@@ -35,7 +35,6 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-
     // Função para exibir a assinatura do aplicativo
     private fun showSignature() {
         val mySignature = """

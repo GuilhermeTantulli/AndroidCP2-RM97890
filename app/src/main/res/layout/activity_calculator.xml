@@ -60,7 +60,7 @@
     <RadioGroup
         android:id="@+id/radioGroup"
         android:layout_width="350dp"
-        android:layout_height="200dp"
+        android:layout_height="192dp"
         android:layout_marginTop="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -69,25 +69,25 @@
         <RadioButton
             android:id="@+id/radioSoma"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
             android:text="Soma" />
 
         <RadioButton
             android:id="@+id/radioSubtracao"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
             android:text="Subtração" />
 
         <RadioButton
             android:id="@+id/radioMultiplicacao"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
             android:text="Multiplicação" />
 
         <RadioButton
             android:id="@+id/radioDivisao"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
             android:text="Divisão" />
     </RadioGroup>
 
