@@ -30,7 +30,6 @@
         android:inputType="text"
         android:text="59.90"
         android:enabled="false"
-        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent"

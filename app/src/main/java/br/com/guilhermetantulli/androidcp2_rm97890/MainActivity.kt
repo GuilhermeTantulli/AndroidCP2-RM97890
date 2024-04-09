@@ -12,26 +12,31 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        // Encontrar os elementos visuais pelo ID
+        //Capturando os elementos por ID
         val buttonCalc = findViewById<Button>(R.id.buttonCalc)
         val buttonPhone = findViewById<Button>(R.id.buttonPhone)
         val buttonStudent = findViewById<Button>(R.id.buttonStudent)
 
+        // Definir ações ao tap do botão -> Ir para a tela da calculadora
         buttonCalc.setOnClickListener {
             val intent = Intent(this, CalculatorActivity::class.java)
             startActivity(intent)
         }
 
+        // Definir ações ao tap do botão -> Ir para a tela da conta telefônica
         buttonPhone.setOnClickListener {
             val intent = Intent(this, PhoneActivity::class.java)
             startActivity(intent)
         }
 
+        // Chamada da função de exibição de assinatura
         buttonStudent.setOnClickListener {
             showSignature()
         }
     }
 
+
+    // Função para exibir a assinatura do aplicativo
     private fun showSignature() {
         val mySignature = """
             Nome: Guilherme Tantulli

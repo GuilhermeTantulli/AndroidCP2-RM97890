@@ -15,17 +15,18 @@ class CalculatorActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_calculator)
 
-        //Capturando os elementos por ID
+        // Capturando os elementos por ID
         val valorEdit1 = findViewById<EditText>(R.id.textoValor1)
         val valorEdit2 = findViewById<EditText>(R.id.textoValor2)
         val operacaoRadioGroup = findViewById<RadioGroup>(R.id.radioGroup)
         val buttonCalc = findViewById<Button>(R.id.button)
 
+        // Validação de tipo de dado no campo (para que não seja string, nem nulo)
         buttonCalc.setOnClickListener {
             val valor1 = valorEdit1.text.toString().toDoubleOrNull()
             val valor2 = valorEdit2.text.toString().toDoubleOrNull()
 
-            // Adiciona um Toast para caso nada seja digitado nos campos de valor
+            // Tratativa de erro -> Adiciona um Toast para caso "" seja digitado nos campos de valor
             if (valor1 == null || valor2 == null) {
                 Toast.makeText(this, "Os campos de valor são obrigatórios.", Toast.LENGTH_SHORT).show()
                 return@setOnClickListener
