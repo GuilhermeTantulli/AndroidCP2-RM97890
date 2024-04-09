@@ -12,15 +12,32 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidCP2RM97890"
         tools:targetApi="31">
+
+        <!-- Main Activity -->
         <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- Calculator Activity -->
+        <activity
+            android:name=".CalculatorActivity"
+            android:exported="true" /> <!-- Garante que a activity pode ser iniciada -->
+
+        <!-- Phone Activity -->
+        <activity
+            android:name=".PhoneActivity"
+            android:exported="true" /> <!-- Adicionado e exportado para compatibilidade -->
+
+        <!-- Resultado Activity -->
+        <activity
+            android:name=".ResultadoActivity"
+            android:exported="true" /> <!-- Adicionado e exportado para compatibilidade -->
+
     </application>
 
 </manifest>
