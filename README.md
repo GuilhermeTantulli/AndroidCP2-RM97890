@@ -13,8 +13,8 @@ A segunda tela é a 'Calculadora':
 
 A terceira tela é a 'Conta Telefônica':
 - [x] Rota para a esta tela.
-- [ ] Back-end da tela.
-- [ ] Sub-tela de exibição de resultado.
+- [x] Back-end da tela.
+- [x] Sub-tela de exibição de resultado.
 
 Alet 'Aluno':
 - [x] Alert.

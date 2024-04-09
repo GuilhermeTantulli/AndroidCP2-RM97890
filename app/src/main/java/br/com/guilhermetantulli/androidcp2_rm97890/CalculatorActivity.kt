@@ -38,7 +38,7 @@ class CalculatorActivity : AppCompatActivity() {
                 R.id.radioMultiplicacao -> valor1 * valor2
                 R.id.radioDivisao -> if (valor2 != 0.0) {
                     valor1/valor2
-                } else null
+                } else "Não é possível fazer divisão por zero."
                 else -> null
             }
 

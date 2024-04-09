@@ -37,7 +37,7 @@
 
         <!-- Resultado Activity -->
         <activity
-            android:name=".ResultadoActivity"
+            android:name=".ResultActivity"
             android:exported="true"
             android:parentActivityName=".PhoneActivity"/> <!-- Adicionado e exportado para compatibilidade -->
 
